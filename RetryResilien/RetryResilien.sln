@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetryResilience", "RetryResilien\RetryResilience.csproj", "{F10D0D8A-EB3B-4C4B-95A0-A1BB79159E32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetryResilience", "RetryResilien\RetryResilience.csproj", "{F10D0D8A-EB3B-4C4B-95A0-A1BB79159E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{10731EE5-8007-4B5F-B9AA-5803ADA245AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{A1CE7744-9EFA-49B1-9533-AA9A6EE4DCF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F10D0D8A-EB3B-4C4B-95A0-A1BB79159E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10D0D8A-EB3B-4C4B-95A0-A1BB79159E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10D0D8A-EB3B-4C4B-95A0-A1BB79159E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10731EE5-8007-4B5F-B9AA-5803ADA245AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10731EE5-8007-4B5F-B9AA-5803ADA245AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10731EE5-8007-4B5F-B9AA-5803ADA245AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10731EE5-8007-4B5F-B9AA-5803ADA245AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CE7744-9EFA-49B1-9533-AA9A6EE4DCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CE7744-9EFA-49B1-9533-AA9A6EE4DCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CE7744-9EFA-49B1-9533-AA9A6EE4DCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CE7744-9EFA-49B1-9533-AA9A6EE4DCF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
